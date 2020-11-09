@@ -1,1 +1,6 @@
 mensaje vacio
+git remote add origin https://github.com/julioj1081/Blog-pruebas-git.git
+git remote
+git remote -v
+
+https://github.com/julioj1081/Blog-pruebas-git.git
