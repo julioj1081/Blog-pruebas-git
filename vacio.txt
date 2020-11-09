@@ -11,6 +11,9 @@ https://github.com/julioj1081/Blog-pruebas-git.git
 
 
 ////////////////////////////////////
+Una vez que creamos el repositorio nos crea una nueva rama main
+esta rama la usamos para enviar y traer datos de github un proyecto
+ya subido utilizando el HTTPS 
 
 
 //enviamos cambios a github
