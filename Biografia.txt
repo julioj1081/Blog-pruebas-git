@@ -1,9 +1,9 @@
 Mi nombre es julio alberto
-tengo 23 añós y naci en mexico y mido 1.68 de estatura
+tengo 23 añós y naci en mexico
 Soy diseñador y en mis tiempos libre juego 
 tennis, escribo libros y hago cosas raras con Arduinos
 
-Hoy hablaremos de mi vida y cambio de maestria
+Hoy hablaremos de mi vida cambio de maestria 
 
 // esto es para eliminar un archivo de add
 git rm --cached vacio.txt
