@@ -4,4 +4,5 @@ Soy el CEO de platzi y en mis tiempos libre juego
 tennis, escribo libros y hago cosas raras con Arduinos
 
 
+// esto es para eliminar un archivo de add
 git rm --cached vacio.txt
