@@ -1,9 +1,6 @@
 Mi nombre es julio alberto
-tengo 23 añós y naci en mexico
-Soy diseñador y en mis tiempos libre juego 
-tennis, escribo libros y hago cosas raras con Arduinos
 
-Hoy hablaremos de mi vida cambio de maestria 
+Soy el CTO de platzi y en mis tiempos libre juego 
+tennis, escribo libros y hago cosas raras con raspberry pis
 
-// esto es para eliminar un archivo de add
-git rm --cached vacio.txt
+Mañana nos enfocaremos en la vida laboral
