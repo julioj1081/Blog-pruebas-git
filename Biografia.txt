@@ -1,4 +1,7 @@
 Mi nombre es julio alberto
-
+tengo 23 añós y naci en mexico
 Soy el CEO de platzi y en mis tiempos libre juego 
 tennis, escribo libros y hago cosas raras con Arduinos
+
+
+git rm --cached vacio.txt
