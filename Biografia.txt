@@ -2,5 +2,3 @@ Mi nombre es julio alberto
 
 Soy el CTO de platzi y en mis tiempos libre juego 
 tennis, escribo libros y hago cosas raras con raspberry pis
-
-Mañana nos enfocaremos en la vida laboral
