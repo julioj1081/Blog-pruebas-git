@@ -1,8 +1,22 @@
+*********
+ALIAS
+*********
+
 un ejemplo para crear un alias es usar 
 git log --all --graph --decorate --oneline
 para poder ver como se dibujan las ramas
 $ alias arbol="git log --all --graph --decorate --oneline"
 $ arbol
+
+
+
+
+
+
+***********
+TAGS
+***********
+
 
 //creacion de tags referencias de versiones
 git tag -a v0.1 -m "Primera version" 1231bds
