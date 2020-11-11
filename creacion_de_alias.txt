@@ -1,5 +1,35 @@
 un ejemplo para crear un alias es usar 
 git log --all --graph --decorate --oneline
 para poder ver como se dibujan las ramas
-alias albol = "git log --all --graph --decorate --oneline"
-$arbol
+$ alias arbol="git log --all --graph --decorate --oneline"
+$ arbol
+
+//creacion de tags referencias de versiones
+git tag -a v0.1 -m "Primera version" 1231bds
+
+git tag 
+v0.1
+
+//podemos ver las versiones
+git show-ref --tags
+
+// para traer todo
+git pull origin main
+
+//para agregar el tag a github
+git push origin --tags
+
+//si volvemos a github en el proyecto original
+en main || master 
+encontramos una etiqueta tags eso encontramos la primera version
+
+
+//para eliminar un tag usar 
+git tag -d Nombre_del_tag_a_eliminar  
+//actualizamos
+git push origin --tags
+
+//esto funciona en la consola pero no en github
+git push origin --tags
+git push origin :refs/tags/Nombre_del_tag_a_eliminar
+
