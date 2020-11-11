@@ -29,3 +29,24 @@ Agent pid ejemp: 12345
 agregamos la llave privada | no con la terminacion .pub
 cd ~
 $ ssh-add ~/.ssh/id_rsa
+
+agregamos el contenido de la llave publica a github en 
+setting > SSH and GPG 
+le agregamos un nombre y agregamos la llave publica
+
+/////
+cambiamos el HTTPS a SSH
+PS C:\Users\julio\Desktop\Curso Git> git remote -v
+origin  https://github.com/julioj1081/Blog-pruebas-git.git (fetch)
+origin  https://github.com/julioj1081/Blog-pruebas-git.git (push)
+
+git remote set-url origin git@github.com:julioj1081/Blog-pruebas-git.git
+
+//antes de hacer un commit sincronizamos
+con 
+git pull
+nos saldra un mensaje y escribimos: yes
+//
+despues nos figamos en que rama estamos en github
+estoy trabajando en una rama llamada main pero a veces es master figarse bien en github
+git pull origin main 
