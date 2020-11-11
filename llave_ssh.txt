@@ -1,0 +1,31 @@
+para crear una llave ssh necesitamos estar logeados con el correo
+usando git config -l podemos ver el usuario y el email asociado al bash
+
+
+ssh-keygen -t rsa -b 4096 -C "julioj1081@hotmail.com"
+luego nos pregunta donde guardarla le damos enter
+luego nos pregunta un password o passphrase = 12345 o lo podemos dejar vacio
+
+y nos saldra algo asi
+c/Users/julio/.ssh/id_rsa.pub
+
++---[RSA 4096]----+
+|       . . .oB+=.|
+|        + + * @+o|
+|         B + O @.|
+|       .. * o @ o|
+|      ..So +   + |
+|     o. o   . . E|
+|    o  o . o   = |
+|     ..   o   .  |
+|     ..          |
++----[SHA256]-----+
+
+
+para ver el ssh que esta corriendo
+eval $(ssh-agent -s)
+Agent pid ejemp: 12345
+
+agregamos la llave privada | no con la terminacion .pub
+cd ~
+$ ssh-add ~/.ssh/id_rsa
