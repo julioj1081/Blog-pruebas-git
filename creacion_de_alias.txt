@@ -1,0 +1,5 @@
+un ejemplo para crear un alias es usar 
+git log --all --graph --decorate --oneline
+para poder ver como se dibujan las ramas
+alias albol = "git log --all --graph --decorate --oneline"
+$arbol

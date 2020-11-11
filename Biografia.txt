@@ -9,3 +9,7 @@ git rm --cached vacio.txt
 // esto es para combinar una rama en el master
 git merge 'Nombre de la rama' si sale un ventana emergente 
 precionar Esc despues preciona y sostener shift__zz 
+
+
+//ver ramas dibujadas
+git log --all --graph --decorate --oneline
