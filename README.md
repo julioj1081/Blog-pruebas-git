@@ -18,4 +18,6 @@ Este es el diseño de ReadMe.rm
 ![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
 
 Este curso fue tomado durante el dia de Platzy day
-[id/name]: https://platzi.com/cursos/git-github/
+[Curso de platzy]: https://platzi.com/cursos/git-github/
+
+[Pagina para diseñar md]: https://pandao.github.io/editor.md/en.html
