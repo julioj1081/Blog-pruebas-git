@@ -68,3 +68,10 @@ creamos la rama git checkout -b ingles
 git commit -am "Version ingles"
 git stash drop //para borrar la lista
 git stash list // ya no se vera nada
+
+
+/////////////////////////////////////////
+Limpieza de archivos clonados 
+ejemplo index.html index2.html index3.html
+con este comando hacemos borrado de todos los archivos que se repiten 
+git clean -f 
