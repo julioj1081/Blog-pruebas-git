@@ -19,5 +19,6 @@ Este es el diseño de ReadMe.rm
 
 Este curso fue tomado durante el dia de Platzy day
 [Curso de platzy]: https://platzi.com/cursos/git-github/
-
-[Pagina para diseñar md]: https://pandao.github.io/editor.md/en.html
+<hr>
+<h1>Diseño de md</h1>
+<p>https://pandao.github.io/editor.md/en.html</p>
