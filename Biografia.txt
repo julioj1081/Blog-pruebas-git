@@ -14,6 +14,8 @@ precionar Esc despues preciona y sostener shift__zz
 //ver ramas dibujadas
 git log --all --graph --decorate --oneline
 
+
+/////////////////////////////////////////////////////////
 //Reverse no hacerlo genera confligtos y no es recomendado por que no deja historia
 
 * - * - *  ]*  main
@@ -47,3 +49,21 @@ git rebase master
 
 //si volvemos a checkout main o master no veremos el experimento 1 y 2
 git rebase experimento
+
+
+
+
+//////////////////////////////////////////
+si estamos en master y hacemos una modificacion pero no queremos hacer un commit
+para guardarlo por que no estamos listos para guardarlo en master
+o por que nos equibocamos de rama usamos  
+git stash    //devuelve el valor original y lo guarda temporalmente
+git stash list //podemos ver el guardado temporal
+
+
+por ejemplo si tenemos un titulo en español y lo queremos guardar en ingles en otra rama 
+master$ <h1>Tu nombre</h1>  lo cambiamos a <h1>your name</h1>  
+lo guardamos en git stash
+creamos la rama git checkout -b ingles 
+git commit -am "Version ingles"
+git stash list // ya no se vera nada
