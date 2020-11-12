@@ -18,6 +18,8 @@ Experimento 1
 Experimento 2
 
 //Reverse
-Master 1
 
+* - * - *  ]*  main
+          \ * - * [* experimento
+Master 1
 Master 2
