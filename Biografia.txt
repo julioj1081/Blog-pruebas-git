@@ -17,3 +17,5 @@ git log --all --graph --decorate --oneline
 
 //Reverse
 Master 1
+
+Master 2
