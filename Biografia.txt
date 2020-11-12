@@ -14,12 +14,36 @@ precionar Esc despues preciona y sostener shift__zz
 //ver ramas dibujadas
 git log --all --graph --decorate --oneline
 
-Experimento 1
-Experimento 2
-
-//Reverse
+//Reverse no hacerlo genera confligtos y no es recomendado por que no deja historia
 
 * - * - *  ]*  main
           \ * - * [* experimento
+
+//
+en el main o master
 Master 1
+y guardamos el commit -am
+
+///
+generamos una nueva rama experimento
+Experimento 1
+y guardamos el commit -am
+
+//
+Experimento 2 en rama experimento
+guardamos
+usamos git rebase master
+
+//volvemos al main y agregamos el 
 Master 2
+de bajo de Master 1
+guardamos el commit
+
+//volvemos a experimento
+git rebase master
+
+//esto hara que todo lo que se hizo en el master lo traera a la rama experimento
+//guntadolas con un merge auto
+
+//si volvemos a checkout main o master no veremos el experimento 1 y 2
+git rebase experimento
