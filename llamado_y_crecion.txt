@@ -18,5 +18,5 @@ ya subido utilizando el HTTPS
 
 //enviamos cambios a github
 git push origin main
-//traemos el documento de github una vez que se cambie
+//traemos el documento de github una vez que se cambie para que siempre este actualizado
 git pull origin main
