@@ -15,6 +15,7 @@ precionar Esc despues preciona y sostener shift__zz
 git log --all --graph --decorate --oneline
 
 Experimento 1
+Experimento 2
 
 //Reverse
 Master 1
