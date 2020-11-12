@@ -13,3 +13,7 @@ precionar Esc despues preciona y sostener shift__zz
 
 //ver ramas dibujadas
 git log --all --graph --decorate --oneline
+
+
+//Reverse
+Master 1
