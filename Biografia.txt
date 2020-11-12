@@ -75,3 +75,9 @@ Limpieza de archivos clonados
 ejemplo index.html index2.html index3.html
 con este comando hacemos borrado de todos los archivos que se repiten 
 git clean -f 
+
+
+
+/// traer un commit determinado a master 
+por ejemplo si tenemos rama_2 y guardamos un commit que en master no tenemos 
+git cherry-pick 123asd
