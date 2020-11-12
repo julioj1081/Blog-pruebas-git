@@ -66,4 +66,5 @@ master$ <h1>Tu nombre</h1>  lo cambiamos a <h1>your name</h1>
 lo guardamos en git stash
 creamos la rama git checkout -b ingles 
 git commit -am "Version ingles"
+git stash drop //para borrar la lista
 git stash list // ya no se vera nada
