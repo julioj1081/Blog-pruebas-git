@@ -83,3 +83,14 @@ por ejemplo si tenemos en rama_2 un gran avance y lo queremos pasar a
 master
 usamos git cherry-pick y el id del commit de rama_2 que vamos a traer a master  
 git cherry-pick 123asd
+
+
+// Si nos equibocamos en un commit y nos falto hacer algo por ejemplo
+queremos cambiar el texto y color de un footer
+y solo guardamos el texto y hicimos commit y se nos olvido cambiar el color del footer
+con este commando lo fucionamos con el commit anterior
+git add .
+git commit -m "commit anterior"
+git add /que nos falto 
+git commit --amend
+dar un nuevo mensaje
