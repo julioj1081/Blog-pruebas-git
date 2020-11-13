@@ -47,3 +47,11 @@ git push origin --tags
 git push origin --tags
 git push origin :refs/tags/Nombre_del_tag_a_eliminar
 
+//para ver todos los integrantes que estan en este proyecto o repositorio
+git config --global alias.stats "shortlog -sn --all --no-merges"
+git stats
+
+//quienes metieron mano a este archivo
+git blame -c nombre_del_archivo.html
+o podemos verlo por rango y entre que lineas
+git blame css/estilos.css -L1,20 -c

@@ -101,3 +101,22 @@ git reset --hard as2s6a5 ejemplo este es el ultimo commit que tenia ese archivo 
 todo esto se puede ver en 
 git reflog pero tenemos que tomar en cuenta que se eliminaran todos los commits que 
 hayamos hecho atravez de ese tiempo
+
+
+//Buscador por medio de git terminal
+en que archivos ocupe la palabra platzi
+git grep -n platzi
+
+ejemplo
+README.md:2:Pruebas y uso en el curso de platzy
+README.md:3:>Estas son pruebas que se hicienron en el curso de platzy
+README.md:21:[Curso de platzy]: https://platzi.com/cursos/git-github/
+
+//cuantas veces ocupe la palabra 
+git grep -c platzi
+
+ejemplo
+3
+
+//cuantas veces ocupe la palabra cabecera en los commits que hice 
+git log -S "cabecera"

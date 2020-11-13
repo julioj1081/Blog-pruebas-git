@@ -20,3 +20,9 @@ ya subido utilizando el HTTPS
 git push origin main
 //traemos el documento de github una vez que se cambie para que siempre este actualizado
 git pull origin main
+
+
+//con esto podemos ver las ramas remotas que tenemos en github
+git branch -r
+//ver todas las ramas de git y github
+git branch -a
