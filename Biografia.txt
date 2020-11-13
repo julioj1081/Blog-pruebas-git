@@ -94,3 +94,10 @@ git commit -m "commit anterior"
 git add /que nos falto 
 git commit --amend
 dar un nuevo mensaje
+
+
+//si eliminamos un archivo importante para recuperarlo ocupamos este comando
+git reset --hard as2s6a5 ejemplo este es el ultimo commit que tenia ese archivo importante
+todo esto se puede ver en 
+git reflog pero tenemos que tomar en cuenta que se eliminaran todos los commits que 
+hayamos hecho atravez de ese tiempo
